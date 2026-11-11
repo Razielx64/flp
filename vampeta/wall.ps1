@@ -3,10 +3,11 @@
 #$url = ""
 
 
-iwr $url -O $wp
+$url = 'https://static.poder360.com.br/uploads/2025/07/vampetaco-pix-eua-16jul25-848x477.jpeg'
 
+$wp = "$env:TEMP\vampeta.jpg"
 
-$wp = "$Env:tmp\---wp.png"
+Invoke-WebRequest -Uri $url -OutFile $wp
 
 
 Function Set-WallPaper {
